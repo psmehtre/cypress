@@ -34,13 +34,13 @@ CSS-Selectors & Xpath
    
    // tag is optional in the cypress
    
-   #id
-   .class
-   [attribute= 'value']
-   .class[attribute= 'value']
+   a. `#id`
+   b. `.class`
+   c. `[attribute= 'value']`
+   d. `.class[attribute= 'value']`
    ------ 
 
-2. Xpath
+3. Xpath
    By default the Xpath is not included in cypress for this needs to add the plugins -
 
    npm install -D cypress-xpath
