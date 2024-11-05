@@ -8,12 +8,17 @@ npx cypress --version
 `/// <reference types="Cypress" />`      //This line should be added in  support>command.js to get all the cypress functions
 
 
+# Cypress Execution command lines - 
 
-`npx cypress open` //To execute cases through cypress dashboard
-`npx cypress run ` //will execute all the test specification files in headless mode
-`npx cypress run --browser chrome` //will do the same but in headed mode for chrome
-`npx cypress run --browser chrome --spec < path of specification file >` //here it will execute particular spec file in chrome
-`npx cypress run --spec < path of specification file >` //here it will execute particular spec in headless mode
+1. `npx cypress open` //To execute cases through cypress dashboard
+
+2. `npx cypress run ` //will execute all the test specification files in headless mode
+
+3. `npx cypress run --browser chrome` //will do the same but in headed mode for chrome
+
+4. `npx cypress run --browser chrome --spec < path of specification file >` //here it will execute particular spec file in chrome
+
+5. `npx cypress run --spec < path of specification file >` //here it will execute particular spec in headless mode
 
 
 # For WebElement-locators in the cypress
