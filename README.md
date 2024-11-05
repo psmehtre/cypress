@@ -25,23 +25,24 @@ npx cypress --version
 CSS-Selectors & Xpath
 
 1. CSS-Selectors
-tag id
-tag class
-tag attribute
-tag class attribute
-—————
-Syntax ->
-// tag is optional in the cypress
+   tag id
+   tag class
+   tag attribute
+   tag class attribute
+   —————
+   Syntax ->
+   
+   // tag is optional in the cypress
+   
+   #id
+   .class
+   [attribute= 'value']
+   .class[attribute= 'value']
+   ------ 
 
-#id
-.class
-[attribute= 'value']
-.class[attribute= 'value']
------- 
+2. Xpath
+   By default the Xpath is not included in cypress for this needs to add the plugins -
 
-2. Xpath 
-By default the Xpath is not included in cypress for this needs to add the plugins - 
-
-npm install -D cypress-xpath
-`/// <reference types="cypress-xpath" />`     //This line should be added in  support>command.js
+   npm install -D cypress-xpath
+   `/// <reference types="cypress-xpath" />`     //This line should be added in  support>command.js
  
